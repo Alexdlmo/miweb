@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Alex de las Morenas — Desarrollador Web Junior</title>
+  <meta name="description" content="Portfolio de Alex de las Morenas, desarrollador web junior formado en DAW y cursando DAM. Experiencia en PHP, JavaScript y MySQL. Busco prácticas o primer empleo en Córdoba y Granada." />
+  <meta name="author" content="Alex de las Morenas Ordóñez" />
+  <meta name="theme-color" content="#f3f0e9" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Alex de las Morenas" />
+  <meta property="og:title" content="Alex de las Morenas — Desarrollador Web Junior" />
+  <meta property="og:description" content="Desarrollador web junior formado en DAW y cursando DAM. Experiencia en PHP, JavaScript y MySQL. Busco prácticas o primer empleo en Córdoba y Granada." />
+  <meta property="og:locale" content="es_ES" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>
+    document.documentElement.classList.add("js");
+    window.setTimeout(function () {
+      if (!window.__revealInit) {
+        document.documentElement.classList.add("reveal-fallback");
+      }
+    }, 2500);
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Alex de las Morenas Ordóñez",
+    "jobTitle": "Desarrollador Web Junior",
+    "sameAs": ["https://www.linkedin.com/in/alex-de-las-morenas-ord%C3%B3%C3%B1ez-855350441"],
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Python", "Clean Architecture"]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Alex de las Morenas — inicio">
+        <span class="brand-name">Alex de las Morenas</span>
+        <span class="brand-role">Desarrollador web</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="menu" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#sobre-mi"><span>01</span>Sobre mí</a></li>
+          <li><a href="#habilidades"><span>02</span>Habilidades</a></li>
+          <li><a href="#proyectos"><span>03</span>Proyectos</a></li>
+          <li><a href="#experiencia"><span>04</span>Trayectoria</a></li>
+          <li><a class="nav-cta" href="#contacto">Hablemos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <p class="kicker">Portfolio · 2026</p>
+        <h1 class="reveal" id="hero-title">Desarrollo webs claras, con <em>código que se puede mantener</em>.</h1>
+
+        <div class="grid-12 hero-grid">
+          <div class="hero-lead reveal">
+            <p class="lead">Soy Alex de las Morenas, desarrollador web junior formado en DAW y cursando DAM. He trabajado con PHP, JavaScript y MySQL en un proyecto real con Clean Architecture. Busco prácticas o un primer empleo en Córdoba o Granada.</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#proyectos">
+                Ver proyectos
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn-ghost" href="cv.pdf" download>
+                Descargar CV
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-facts reveal" aria-label="Resumen profesional">
+            <dl>
+              <div>
+                <dt>Disponibilidad</dt>
+                <dd><span class="status-dot" aria-hidden="true"></span>Prácticas y primer empleo</dd>
+              </div>
+              <div>
+                <dt>Zona</dt>
+                <dd>Córdoba · Granada</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>PHP · JavaScript · MySQL</dd>
+              </div>
+              <div>
+                <dt>Enfoque</dt>
+                <dd>Clean Architecture</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MÍ ===================== -->
+    <section id="sobre-mi" class="section">
+      <div class="wrap">
+        <div class="grid-12 about-grid">
+          <p class="section-label"><span>01</span> Sobre mí</p>
+
+          <div class="about-main reveal">
+            <h2>Me gusta entender el proyecto completo, de la interfaz a la base de datos.</h2>
+            <p>Soy <strong>Alex de las Morenas</strong>. Mi base es el desarrollo web (DAW) y ahora estoy ampliando hacia el desarrollo multiplataforma (DAM).</p>
+            <p>En mis prácticas en <strong>SB Software</strong> trabajé en un proyecto interno con Clean Architecture: desarrollé componentes de frontend y backend, creé una biblioteca de clases y un conector con PrestaShop, y optimicé consultas sobre bases de datos relacionales. También uso herramientas de IA como apoyo al desarrollo, sin dejar de lado los fundamentos.</p>
+            <p>Me interesa especialmente la parte de arquitectura: que el código se entienda, se pueda probar y siga siendo mantenible cuando el proyecto crece.</p>
+          </div>
+
+          <aside class="about-facts reveal" aria-label="Datos rápidos">
+            <dl>
+              <div>
+                <dt>Formación</dt>
+                <dd>DAW · DAM</dd>
+              </div>
+              <div>
+                <dt>Experiencia</dt>
+                <dd>SB Software · Prácticas</dd>
+              </div>
+              <div>
+                <dt>Intereses</dt>
+                <dd>Programación · Desarrollo web</dd>
+              </div>
+              <div>
+                <dt>Idiomas</dt>
+                <dd>Español nativo</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HABILIDADES ===================== -->
+    <section id="habilidades" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="section-label"><span>02</span> Habilidades</p>
+          <h2>Tecnologías con las que he trabajado y sigo aprendiendo.</h2>
+        </div>
+
+        <div class="stack">
+          <article class="stack-row reveal">
+            <h3>Frontend</h3>
+            <p>Interfaces claras, adaptables y cuidadas al detalle.</p>
+            <ul class="stack-tags">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Diseño responsive</li><li>Maquetación</li>
+            </ul>
+          </article>
+
+          <article class="stack-row reveal">
+            <h3>Backend y datos</h3>
+            <p>Lógica de servidor, bases de datos relacionales y consultas eficientes.</p>
+            <ul class="stack-tags">
+              <li>PHP</li><li>MySQL</li><li>SQL</li><li>Python</li><li>PrestaShop</li>
+            </ul>
+          </article>
+
+          <article class="stack-row reveal">
+            <h3>Arquitectura</h3>
+            <p>Código ordenado, mantenible y preparado para crecer.</p>
+            <ul class="stack-tags">
+              <li>Clean Architecture</li><li>Patrones de diseño</li><li>Optimización de consultas</li><li>Documentación técnica</li>
+            </ul>
+          </article>
+
+          <article class="stack-row reveal">
+            <h3>Herramientas</h3>
+            <p>Control de versiones y apoyo al desarrollo diario.</p>
+            <ul class="stack-tags">
+              <li>Git</li><li>IA como apoyo</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROYECTOS ===================== -->
+    <section id="proyectos" class="section">
+      <div class="wrap">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <p class="section-label"><span>03</span> Proyectos</p>
+            <h2>Lo que he construido hasta ahora.</h2>
+          </div>
+          <p class="section-note">Trabajos propios, de formación y prácticas. Parte del código es privado por confidencialidad.</p>
+        </div>
+
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project-media media-type" aria-hidden="true">
+              <span class="media-kicker">HTML / CSS / JS</span>
+              <span class="media-word">A—M</span>
+              <span class="media-caption">Portfolio · 2026</span>
+            </div>
+            <div class="project-info">
+              <p class="project-index">01 / 03</p>
+              <h3>Portfolio personal</h3>
+              <p class="project-meta">Proyecto propio · 2026</p>
+              <p class="project-desc">Esta misma web: un portfolio de una página construido desde cero con HTML, CSS y JavaScript, sin frameworks ni proceso de build. Incluye diseño responsive, navegación accesible y animaciones que respetan las preferencias del sistema.</p>
+              <ul class="project-stack"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <p class="project-note">Diseño y desarrollo propios</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media" aria-hidden="true">
+              <svg class="diagram" viewBox="0 0 640 400" role="img" aria-label="Diagrama de capas de Clean Architecture: infraestructura, aplicación y dominio">
+                <g fill="none" stroke="currentColor" stroke-width="1.2">
+                  <rect x="44" y="48" width="552" height="304" pathLength="1" />
+                  <rect x="112" y="106" width="416" height="188" pathLength="1" />
+                  <rect x="184" y="166" width="272" height="68" pathLength="1" />
+                </g>
+                <g fill="currentColor" font-size="17" text-anchor="start">
+                  <text x="60" y="72">Infraestructura</text>
+                  <text x="128" y="130">Aplicación</text>
+                </g>
+                <text x="320" y="193" fill="currentColor" font-size="17" text-anchor="middle">Dominio</text>
+                <text x="320" y="215" fill="currentColor" font-size="12" text-anchor="middle">Reglas de negocio</text>
+                <text class="diagram-note" x="60" y="338" font-size="12" text-anchor="start">Las dependencias apuntan hacia dentro</text>
+              </svg>
+            </div>
+            <div class="project-info">
+              <p class="project-index">02 / 03</p>
+              <h3>Proyecto interno</h3>
+              <p class="project-meta">SB Software · Prácticas · 2026</p>
+              <p class="project-desc">Participé en el desarrollo de un proyecto interno con Clean Architecture: componentes de frontend y backend, una biblioteca de clases propia y la integración con PrestaShop. También trabajé con bases de datos relacionales y en la optimización de consultas.</p>
+              <ul class="project-stack"><li>PHP</li><li>JavaScript</li><li>MySQL</li><li>Clean Architecture</li></ul>
+              <p class="project-note">Código privado de la empresa</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media" aria-hidden="true">
+              <svg class="diagram" viewBox="0 0 640 400" role="img" aria-label="Diagrama del conector: proyecto interno, conector, PrestaShop y MySQL">
+                <defs>
+                  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                    <path d="M0 0 L10 5 L0 10 z" fill="currentColor" />
+                  </marker>
+                </defs>
+                <g fill="none" stroke="currentColor" stroke-width="1.2">
+                  <rect x="40" y="78" width="156" height="62" pathLength="1" />
+                  <rect x="242" y="78" width="156" height="62" pathLength="1" />
+                  <rect x="444" y="78" width="156" height="62" pathLength="1" />
+                  <rect x="242" y="262" width="156" height="62" pathLength="1" />
+                  <line x1="196" y1="109" x2="238" y2="109" marker-end="url(#arrow)" />
+                  <line x1="398" y1="109" x2="440" y2="109" marker-end="url(#arrow)" />
+                  <line x1="320" y1="140" x2="320" y2="258" marker-end="url(#arrow)" />
+                </g>
+                <g fill="currentColor" font-size="17" text-anchor="middle">
+                  <text x="118" y="114">Proyecto interno</text>
+                  <text x="320" y="114">Conector</text>
+                  <text x="522" y="114">PrestaShop</text>
+                  <text x="320" y="298">MySQL</text>
+                </g>
+                <text class="diagram-note" x="40" y="360" font-size="12" text-anchor="start">Acceso a datos centralizado en una biblioteca de clases</text>
+              </svg>
+            </div>
+            <div class="project-info">
+              <p class="project-index">03 / 03</p>
+              <h3>Conector PrestaShop</h3>
+              <p class="project-meta">SB Software · Prácticas · 2026</p>
+              <p class="project-desc">Desarrollo de la biblioteca de clases y del conector que comunicaba el proyecto interno con PrestaShop, cuidando la estructura del código y el acceso a los datos.</p>
+              <ul class="project-stack"><li>PHP</li><li>PrestaShop</li><li>MySQL</li></ul>
+              <p class="project-note">Código privado de la empresa</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCIA ===================== -->
+    <section id="experiencia" class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="section-label"><span>04</span> Trayectoria</p>
+          <h2>Dónde he estado y qué he aprendido.</h2>
+        </div>
+
+        <div class="ledger">
+          <section class="ledger-group reveal" aria-labelledby="exp-title">
+            <h3 class="ledger-title" id="exp-title">Experiencia</h3>
+            <article class="entry">
+              <p class="entry-date">Mar — Jun 2026</p>
+              <div class="entry-body">
+                <h4>Desarrollador Web · Prácticas</h4>
+                <p class="entry-org">SB Software · Baena, Andalucía · Presencial</p>
+                <ul class="entry-points">
+                  <li>Desarrollo de un proyecto interno siguiendo una arquitectura basada en Clean Architecture.</li>
+                  <li>Desarrollo de componentes y funcionalidades tanto en frontend como en backend.</li>
+                  <li>Creación de una biblioteca de clases y de un conector con PrestaShop para el servidor.</li>
+                  <li>Trabajo con bases de datos relacionales y optimización de consultas y rendimiento.</li>
+                  <li>Aplicación de patrones de diseño y buenas prácticas, con herramientas de IA como apoyo.</li>
+                </ul>
+              </div>
+            </article>
+          </section>
+
+          <section class="ledger-group reveal" aria-labelledby="edu-title">
+            <h3 class="ledger-title" id="edu-title">Formación</h3>
+            <article class="entry">
+              <p class="entry-date">2024 — Actualidad</p>
+              <div class="entry-body">
+                <h4>DAM · Grado Superior</h4>
+                <p class="entry-org">IES Luis Carrillo de Sotomayor</p>
+                <p>Actualmente cursando segundo curso. Formación en programación, bases de datos y desarrollo de aplicaciones.</p>
+              </div>
+            </article>
+            <article class="entry">
+              <p class="entry-date">2025 — 2026</p>
+              <div class="entry-body">
+                <h4>DAW · Grado Superior</h4>
+                <p class="entry-org">IES Luis Carrillo de Sotomayor</p>
+                <p>Formación especializada en el desarrollo, implantación y mantenimiento de aplicaciones web: tecnologías frontend y backend, despliegue en servidores y gestión de bases de datos.</p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <p class="kicker kicker-invert"><span>05</span> Contacto</p>
+        <h2 class="reveal" id="contact-title">¿Hablamos?</h2>
+        <p class="contact-lead reveal">Busco prácticas o un primer empleo como desarrollador web en Córdoba y Granada. Si crees que puedo encajar en tu equipo, escríbeme.</p>
+
+        <div class="contact-actions reveal">
+          <a class="btn btn-light" href="https://www.linkedin.com/in/alex-de-las-morenas-ord%C3%B3%C3%B1ez-855350441" target="_blank" rel="noopener noreferrer">
+            Escríbeme por LinkedIn
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+          <a class="btn btn-outline-light" href="cv.pdf" download>
+            Descargar CV
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          </a>
+        </div>
+
+        <!-- TODO: añadir email y GitHub cuando estén disponibles -->
+        <ul class="contact-links reveal">
+          <li><a href="https://www.linkedin.com/in/alex-de-las-morenas-ord%C3%B3%C3%B1ez-855350441" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
+          <li><a href="cv.pdf" download>CV ↓</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Alex de las Morenas</p>
+      <p class="footer-mono">HTML · CSS · JavaScript</p>
+      <a href="#top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
