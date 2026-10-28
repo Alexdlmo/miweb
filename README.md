@@ -2,6 +2,8 @@
 
 Portfolio personal de una página para buscar **prácticas o un primer empleo como desarrollador web** en Córdoba y Granada.
 
+Publicado en **https://alexdlmo.github.io/miweb/**.
+
 Hecho con **HTML, CSS y JavaScript**, sin frameworks ni proceso de build. Incluye diseño responsive, menú móvil, animaciones sutiles, accesibilidad y SEO básico.
 
 ## Archivos
@@ -43,18 +45,19 @@ La web ya usa el perfil real, pero faltan estos datos:
 
 `cv.pdf` no tiene fuente editable en el repositorio. Para cambiarlo, edita el documento original fuera del repo (Word, Google Docs, Canva…) y sustituye `cv.pdf` en esta carpeta.
 
-## Publicar gratis
+## Publicación
 
-### GitHub Pages
-1. Crea un repositorio en GitHub y sube el contenido de `miweb`.
-2. Ve a **Settings → Pages**.
-3. En *Source* elige la rama `main` y la carpeta `/ (root)`.
-4. Tu web estará en `https://tuusuario.github.io/nombre-del-repo/`.
+La web se sirve desde **GitHub Pages**: repositorio [Alexdlmo/miweb](https://github.com/Alexdlmo/miweb), rama `main`, carpeta `/ (root)`.
 
-### Netlify Drop
-1. Entra en [app.netlify.com/drop](https://app.netlify.com/drop).
-2. Arrastra la carpeta `miweb`.
-3. Listo. Puedes conectar un dominio propio después.
+Cada push a `main` vuelve a desplegar el sitio en uno o dos minutos:
+
+```bash
+git add .
+git commit -m "Describe el cambio"
+git push
+```
+
+Si el despliegue no arranca tras un push, revisa la pestaña **Actions** del repo (run «pages build and deployment»).
 
 ## Antes de enviar candidaturas
 

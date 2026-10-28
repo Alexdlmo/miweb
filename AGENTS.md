@@ -47,7 +47,7 @@ Portfolio personal de una página para buscar prácticas o un primer empleo como
 - No inventes experiencia, fechas ni datos de contacto. LinkedIn es el único perfil real; email y GitHub están pendientes (TODO en la sección de contacto).
 - No vuelvas a `display:none` para el menú móvil: rompe la transición y el foco.
 - No conviertas las tarjetas de proyecto en enlaces ni añadas hover que sugiera que se pueden clicar.
-- No añadas `canonical` ni `og:image` hasta que exista la URL de despliegue.
+- No añadas `og:image` (se decidió no tener imagen social). `canonical` y `og:url` apuntan a la URL real; si cambia el destino, actualízalos.
 - No intentes regenerar `cv.pdf` desde el repo: no hay fuente editable.
 - No cambies el breakpoint de la cabecera sin confirmarlo con el dueño (ver «Problema conocido»).
 
@@ -57,9 +57,15 @@ Portfolio personal de una página para buscar prácticas o un primer empleo como
 - Una tarea a la vez; al terminar, dime qué cambiaste para que lo revise.
 - Si no estás seguro al 80%, pregunta. No inventes.
 
+## Despliegue
+
+- Repo: https://github.com/Alexdlmo/miweb
+- Web: https://alexdlmo.github.io/miweb/
+- GitHub Pages sirve desde `main` / `(root)`. Un push a `main` redespliega en 1–2 min; no hay workflow propio. Si no arranca, mira la pestaña Actions («pages build and deployment»).
+
 ## Documentación
 
-- `README.md` — setup local, contenido pendiente, actualización del CV y publicación (GitHub Pages / Netlify).
+- `README.md` — setup local, contenido pendiente, actualización del CV y publicación.
 
 ## Problema conocido
 
